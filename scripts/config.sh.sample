@@ -3,14 +3,14 @@
 # For "local", the avatar images and document attachments will be saved on local disk. 
 FILE_STORAGE=local
 # The url used to vist this web site.
-URL=http://127.0.0.1:8888
+URL=https://outline.targetsite.com
 # The default interface language. See translate.getoutline.com for a list of
 # available language codes and their rough percentage translated.
 DEFAULT_LANGUAGE=en_US
 # https://docs.djangoproject.com/en/2.2/ref/settings/#language-code
 LANGUAGE_CODE=en-us
 # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-TIME_ZONE=UTC
+TIME_ZONE=CET
 FORCE_HTTPS=false
 # The domain in you email.
 # Comma separated list of domains to be allowed (optional).
