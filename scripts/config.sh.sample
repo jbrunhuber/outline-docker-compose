@@ -18,7 +18,7 @@ FORCE_HTTPS=false
 ALLOWED_DOMAINS=
 
 # Docker image version
-OUTLINE_VERSION=0.72.0-3
+OUTLINE_VERSION=0.76.2-0
 POSTGRES_VERSION=15.2-alpine3.17
 MINIO_VERSION=RELEASE.2022-11-17T23-20-09Z
 MINIO_MC_VERSION=RELEASE.2022-11-17T21-20-39Z
@@ -34,7 +34,7 @@ HTTP_PORT_IP=8888
 # If you server behind a proxy(nginx), and the proxy created by docker. You can use the proxy's network. Set the `NETWORKS` to proxy's network name, and set `NETWORKS_EXTERNAL` to `true` .
 # The sample config for host nginx can be find in `config/sample/nginx_outline.conf`.
 NETWORKS=outlinewiki
-NETWORKS_EXTERNAL=false
+NETWORKS_EXTERNAL=true
 
 # Secret keys, update by script.
 # You shouldn't edit it.

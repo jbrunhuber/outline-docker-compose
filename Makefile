@@ -24,6 +24,7 @@ stop:
 	${docker-compose} down || true
 
 update-images:
+	cd ./scripts && bash ./main.sh create_env_files
 	${docker-compose} pull
 
 clean-docker: stop
